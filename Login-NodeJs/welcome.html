@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="welcome-message">
+            <h2>Welcome to the Dashboard!</h2>
+            <p>You have successfully logged in!</p>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    <script>
+        function logout() {
+            // You can add logout functionality here if needed
+            alert("Logged out!");
+           window.location.href= "login.html" // Redirect to login page
+        }
+    </script>
+</body>
+</html>
